@@ -33,10 +33,10 @@ public class App {
             String new_breed = scanner.nextLine();
             dog.setName(new_name);
             dog.setBreed(new_breed);
-            System.out.println("New dog : " + dog.getName() + ", " + dog.getBreed() + "\n");
+            System.out.println("New dog : " + dog.getName() + ", " + dog.getBreed());
         }
 
-        System.out.println("\nRectangle Calculator:");
+        System.out.println("\nRectangle Calculator :");
         System.out.print("Enter width: ");
         double width = scanner.nextDouble();
         System.out.print("Enter height: ");
